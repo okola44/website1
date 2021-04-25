@@ -1,0 +1,48 @@
+.row:after{
+display: flex;
+content: "";
+display: table;
+clear: both;
+}
+.column{
+    float: left;
+    width: 33.3%;
+}
+h1{
+    color: darkslategrey;
+    text-align: center;
+    font-weight: bolder;
+}
+h2{
+    color: darkslategrey;
+    font-style: italic;
+    
+}
+p{
+    color:grey;
+    font-style: italic;
+    
+}
+q{
+    font-size: x-large;
+
+}
+h3{
+    font-size: x-large;
+    color: darkslategrey;
+}
+hr{
+    color: rgb(70, 47, 70);
+}
+.one{
+    color: black;
+    text-align: center;
+
+}
+.break{
+    background-color: purple;
+    height: 4px;
+    
+}
+
+
